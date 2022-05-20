@@ -1,0 +1,39 @@
+:root{
+
+}
+
+body {
+  background-color: #ccc;
+}
+
+.user-cards {
+  text-align: center;
+}
+
+.main-title{
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+}
+
+.user-card {
+  display: inline-flex;
+  max-width: 550px;
+  width: 100%;
+  min-height: 350px;
+
+  background-color: #fff;
+}
+
+.user-card-img {
+  width: 50%;
+
+  object-fit: cover;
+  object-position: -215px 0px;
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+.user-card-info{
+  margin: auto;
+  margin-left: 35px;
+}
